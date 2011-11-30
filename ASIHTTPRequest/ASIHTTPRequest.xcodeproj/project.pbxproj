@@ -59,6 +59,14 @@
 		8AB4BF6014744D8600C5410C /* ASIS3ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4BF2F14744D8600C5410C /* ASIS3ServiceRequest.m */; };
 		8AB4BF6814744DFC00C5410C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB4BF6614744DFC00C5410C /* Reachability.h */; };
 		8AB4BF6914744DFC00C5410C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4BF6714744DFC00C5410C /* Reachability.m */; };
+		8ADD60C71486C527002EA0D3 /* ASIFormDataRequest+OAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADD60BF1486C527002EA0D3 /* ASIFormDataRequest+OAuth.h */; };
+		8ADD60C81486C527002EA0D3 /* ASIFormDataRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD60C01486C527002EA0D3 /* ASIFormDataRequest+OAuth.m */; };
+		8ADD60C91486C527002EA0D3 /* ASIHTTPRequest+OAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADD60C11486C527002EA0D3 /* ASIHTTPRequest+OAuth.h */; };
+		8ADD60CA1486C527002EA0D3 /* ASIHTTPRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD60C21486C527002EA0D3 /* ASIHTTPRequest+OAuth.m */; };
+		8ADD60CB1486C527002EA0D3 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADD60C31486C527002EA0D3 /* NSData+Base64.h */; };
+		8ADD60CC1486C527002EA0D3 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD60C41486C527002EA0D3 /* NSData+Base64.m */; };
+		8ADD60CD1486C527002EA0D3 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADD60C51486C527002EA0D3 /* NSString+URLEncode.h */; };
+		8ADD60CE1486C527002EA0D3 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD60C61486C527002EA0D3 /* NSString+URLEncode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +124,14 @@
 		8AB4BF6414744DFC00C5410C /* README-GHUnit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-GHUnit"; sourceTree = "<group>"; };
 		8AB4BF6614744DFC00C5410C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8AB4BF6714744DFC00C5410C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8ADD60BF1486C527002EA0D3 /* ASIFormDataRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ASIFormDataRequest+OAuth.h"; path = "../../asi-http-request-oauth/ASIFormDataRequest+OAuth.h"; sourceTree = "<group>"; };
+		8ADD60C01486C527002EA0D3 /* ASIFormDataRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ASIFormDataRequest+OAuth.m"; path = "../../asi-http-request-oauth/ASIFormDataRequest+OAuth.m"; sourceTree = "<group>"; };
+		8ADD60C11486C527002EA0D3 /* ASIHTTPRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ASIHTTPRequest+OAuth.h"; path = "../../asi-http-request-oauth/ASIHTTPRequest+OAuth.h"; sourceTree = "<group>"; };
+		8ADD60C21486C527002EA0D3 /* ASIHTTPRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ASIHTTPRequest+OAuth.m"; path = "../../asi-http-request-oauth/ASIHTTPRequest+OAuth.m"; sourceTree = "<group>"; };
+		8ADD60C31486C527002EA0D3 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "../../asi-http-request-oauth/NSData+Base64.h"; sourceTree = "<group>"; };
+		8ADD60C41486C527002EA0D3 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "../../asi-http-request-oauth/NSData+Base64.m"; sourceTree = "<group>"; };
+		8ADD60C51486C527002EA0D3 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncode.h"; path = "../../asi-http-request-oauth/NSString+URLEncode.h"; sourceTree = "<group>"; };
+		8ADD60C61486C527002EA0D3 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncode.m"; path = "../../asi-http-request-oauth/NSString+URLEncode.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +149,7 @@
 		8AB4BEE114744D4D00C5410C = {
 			isa = PBXGroup;
 			children = (
+				8ADD60BD1486C512002EA0D3 /* ASIHTTPRequest+OAuth */,
 				8AB4BF6114744DC900C5410C /* ASIHTTPRequest */,
 				8AB4BEEE14744D4D00C5410C /* Frameworks */,
 				8AB4BEED14744D4D00C5410C /* Products */,
@@ -266,6 +283,21 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
+		8ADD60BD1486C512002EA0D3 /* ASIHTTPRequest+OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD60BF1486C527002EA0D3 /* ASIFormDataRequest+OAuth.h */,
+				8ADD60C01486C527002EA0D3 /* ASIFormDataRequest+OAuth.m */,
+				8ADD60C11486C527002EA0D3 /* ASIHTTPRequest+OAuth.h */,
+				8ADD60C21486C527002EA0D3 /* ASIHTTPRequest+OAuth.m */,
+				8ADD60C31486C527002EA0D3 /* NSData+Base64.h */,
+				8ADD60C41486C527002EA0D3 /* NSData+Base64.m */,
+				8ADD60C51486C527002EA0D3 /* NSString+URLEncode.h */,
+				8ADD60C61486C527002EA0D3 /* NSString+URLEncode.m */,
+			);
+			name = "ASIHTTPRequest+OAuth";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -301,6 +333,10 @@
 				8AB4BF5D14744D8600C5410C /* ASIS3Request.h in Headers */,
 				8AB4BF5F14744D8600C5410C /* ASIS3ServiceRequest.h in Headers */,
 				8AB4BF6814744DFC00C5410C /* Reachability.h in Headers */,
+				8ADD60C71486C527002EA0D3 /* ASIFormDataRequest+OAuth.h in Headers */,
+				8ADD60C91486C527002EA0D3 /* ASIHTTPRequest+OAuth.h in Headers */,
+				8ADD60CB1486C527002EA0D3 /* NSData+Base64.h in Headers */,
+				8ADD60CD1486C527002EA0D3 /* NSString+URLEncode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +413,10 @@
 				8AB4BF5E14744D8600C5410C /* ASIS3Request.m in Sources */,
 				8AB4BF6014744D8600C5410C /* ASIS3ServiceRequest.m in Sources */,
 				8AB4BF6914744DFC00C5410C /* Reachability.m in Sources */,
+				8ADD60C81486C527002EA0D3 /* ASIFormDataRequest+OAuth.m in Sources */,
+				8ADD60CA1486C527002EA0D3 /* ASIHTTPRequest+OAuth.m in Sources */,
+				8ADD60CC1486C527002EA0D3 /* NSData+Base64.m in Sources */,
+				8ADD60CE1486C527002EA0D3 /* NSString+URLEncode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
