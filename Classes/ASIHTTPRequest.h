@@ -839,6 +839,7 @@ typedef void (^ASIDataBlock)(NSData *data);
 
 // Returns YES when an iPhone OS device is connected via WWAN, false when connected via WIFI or not connected
 + (BOOL)isNetworkReachableViaWWAN;
++ (BOOL)isNetworkReachable;
 
 #endif
 

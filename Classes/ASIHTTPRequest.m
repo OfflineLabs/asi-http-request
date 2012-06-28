@@ -4671,6 +4671,11 @@ static NSOperationQueue *sharedQueue = nil;
 	return ([[Reachability reachabilityForInternetConnection] currentReachabilityStatus] == ReachableViaWWAN);	
 }
 
++ (BOOL)isNetworkReachable
+{
+    return [[Reachability reachabilityForInternetConnection] isReachable];
+}
+
 + (void)reachabilityChanged:(NSNotification *)note
 {
 	[bandwidthThrottlingLock lock];
